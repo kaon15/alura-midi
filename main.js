@@ -34,3 +34,11 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
   
   }
 
+    tecla.onkeyup = function () {
+    
+      tecla.classList.remove('ativa');
+    
+    }
+
+  }
+
