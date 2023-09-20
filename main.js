@@ -2,7 +2,17 @@ function tocaSomPom (seletorAudio) {
   document.querySelector(seletorAudio).play();
 }
 
-  const listaDeTeclas = document.querySelectorAll('.tecla');
+if (elemento && elemento.localName === 'audio' {
+    elemento.play();
+}
+  
+  else  {
+      //alert('Elemento não encontrado');
+    console.logg('Elemento não encontrado ou seletor inválido')
+ 
+  }
+
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
 //para
   for (let contador = 0; contador < listaDeTeclas.length; contador++) {
